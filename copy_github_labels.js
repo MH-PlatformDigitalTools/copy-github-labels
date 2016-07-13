@@ -42,8 +42,6 @@ copyGitHubLabels.copy(sourceRepo, destRepo, function(err, label) {
   if (err) {
     //console.log('Could not copy label ', label, ':', err);
   } else {
-    console.log('Label copied successfully: ', label)
+    console.log('Label copied successfully:', label.name)
   }
 });
-
-console.log('All possible labels copied!');
