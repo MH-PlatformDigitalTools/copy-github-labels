@@ -6,4 +6,4 @@
 # TODO: replace with your token (https://github.com/settings/tokens)
 export GITHUB_TOKEN=abcdefgh1234567890
 
-node ./copy-github-labels.js $@
+node ./copy_github_labels.js $@
