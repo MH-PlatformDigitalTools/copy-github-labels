@@ -26,6 +26,7 @@ if (startupError) {
   console.log('USAGE:');
   console.log('  GITHUB_TOKEN=abcdefgh1234567890 node copy-github-labels.js <source repo> <dest repo>');
   console.log('Source and dest repos are of format OrgName/repo_name')
+  process.exit(1);
 }
 
 copyGitHubLabels.authenticate({
